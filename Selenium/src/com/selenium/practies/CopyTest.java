@@ -24,6 +24,8 @@ public class CopyTest {
 		//paste text
 		
 		driver.findElement(By.id("mSoczb")).sendKeys(Keys.CONTROL+"v");
+		
+		System.out.println("Hello");
 	}
 
 }
