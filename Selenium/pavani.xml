@@ -1,0 +1,15 @@
+<suite name="Vasu">
+  <test name="Smoke">
+    <classes>
+      <class name="com.selenium.testng.AnnotationsTest"/>
+
+      <class name="com.selenium.testng.AnnotationsTest1"/>
+      
+      <class name="com.selenium.testng.AdminLoginTest"/>
+       
+       <class name="com.selenium.testng.FirstTestNg"/>
+       <class name="com.selenium.testng.MultipleTestNgTest"/>
+      
+    </classes>
+  </test>
+</suite>
