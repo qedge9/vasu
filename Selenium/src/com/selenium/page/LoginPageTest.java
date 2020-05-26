@@ -15,7 +15,7 @@ public class LoginPageTest
 		
 		LoginPage app=PageFactory.initElements(driver, LoginPage.class);
 		
-		app.adminLogin();
+		app.adminLogin("Admin","Qedge");
 		
 		
 		EmpReg app1=PageFactory.initElements(driver, EmpReg.class);

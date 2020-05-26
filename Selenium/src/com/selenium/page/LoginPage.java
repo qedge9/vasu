@@ -18,11 +18,12 @@ public class LoginPage
 	
 	//method for adminlogin(test case)
 	
-	public void adminLogin()
+	public void adminLogin(String username,String pwd)
 	{
-		userName.sendKeys("Admin");
-		password.sendKeys("Qedge123!@#");
+		userName.sendKeys(username);
+		password.sendKeys(pwd);
 		login.click();
+		
 		
 	}
 	
