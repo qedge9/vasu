@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Grid Demo Suite" duration-ms="18990" started-at="2020-05-26T16:12:08Z" finished-at="2020-05-26T16:12:27Z">
+  <suite name="Default suite" duration-ms="88801" started-at="2020-06-02T16:12:27Z" finished-at="2020-06-02T16:13:55Z">
     <groups>
     </groups>
-    <test name="Login on Chrome" duration-ms="14268" started-at="2020-05-26T16:12:08Z" finished-at="2020-05-26T16:12:22Z">
-      <class name="com.selenium.grid.Grid">
-        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.selenium.grid.Grid@ea4a92b]" name="dropdownTest" duration-ms="14232" started-at="2020-05-26T21:42:08Z" finished-at="2020-05-26T21:42:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="88801" started-at="2020-06-02T16:12:27Z" finished-at="2020-06-02T16:13:55Z">
+      <class name="com.selenium.excel.keywordriven">
+        <test-method status="PASS" signature="keywordprg()[pri:0, instance:com.selenium.excel.keywordriven@3aa9e816]" name="keywordprg" duration-ms="88660" started-at="2020-06-02T21:42:27Z" finished-at="2020-06-02T21:43:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdownTest -->
-      </class> <!-- com.selenium.grid.Grid -->
-    </test> <!-- Login on Chrome -->
-    <test name="Login on Firefox" duration-ms="18990" started-at="2020-05-26T16:12:08Z" finished-at="2020-05-26T16:12:27Z">
-      <class name="com.selenium.grid.Grid">
-        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.selenium.grid.Grid@6fffcba5]" name="dropdownTest" duration-ms="18958" started-at="2020-05-26T21:42:08Z" finished-at="2020-05-26T21:42:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownTest -->
-      </class> <!-- com.selenium.grid.Grid -->
-    </test> <!-- Login on Firefox -->
-  </suite> <!-- Grid Demo Suite -->
+        </test-method> <!-- keywordprg -->
+      </class> <!-- com.selenium.excel.keywordriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
